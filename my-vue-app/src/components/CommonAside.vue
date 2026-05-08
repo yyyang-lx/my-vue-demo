@@ -102,10 +102,10 @@ const width = computed(() => store.state.isCollapse ? '64px' : '180px')
 .el-aside {
     height: 100%;
     background-color: #545c64;
-     transition: width 0.28s ease !important;
-    overflow: hidden;
+    //  transition: width 0.28s ease !important;
+    // overflow: hidden;
 }
-:deep(.el-menu span) {
-    transition: opacity 0.2s ease;
-}
+// :deep(.el-menu span) {
+//     transition: opacity 0.2s ease;
+// }
 </style>
